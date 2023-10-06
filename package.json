@@ -12,7 +12,7 @@
         "lint": "prettier --check . && eslint .",
         "format": "prettier --write .",
         "commit": "prettier --check . && eslint . && cz",
-        "deploy": "vite build && yarn gh-pages -d build"
+        "deploy": "vite build && yarn gh-pages -d build -b main"
     },
     "devDependencies": {
         "@sveltejs/adapter-auto": "^2.1.0",
