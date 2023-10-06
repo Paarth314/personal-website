@@ -2,6 +2,7 @@
     "name": "personal-website",
     "version": "0.0.1",
     "private": true,
+    "homepage": "https://github.com/Paarth314/Paarth314.github.io/",
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
@@ -11,7 +12,7 @@
         "lint": "prettier --check . && eslint .",
         "format": "prettier --write .",
         "commit": "prettier --check . && eslint . && cz",
-        "deploy": "yarn build && gh-pages -d build"
+        "deploy": "gh-pages -d build"
     },
     "devDependencies": {
         "@sveltejs/adapter-auto": "^2.1.0",
