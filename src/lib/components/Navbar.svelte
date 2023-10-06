@@ -37,13 +37,13 @@
         {:else}
             <div class="flex">
                 <button class="link mx-4 px-2 py-2 font-semibold no-underline hover:text-accent"
-                    ><a href="/stems/">About</a></button
+                    ><a href="/about/">About</a></button
                 >
                 <button class="link mx-4 px-2 py-2 font-semibold no-underline hover:text-accent"
-                    ><a href="/events">CV</a></button
+                    ><a href="/cv/">CV</a></button
                 >
                 <button class="link px-2 py-2 font-semibold no-underline hover:text-accent"
-                    ><a href="/sponsors">Contact</a></button
+                    ><a href="/contact/">Contact</a></button
                 >
             </div>
         {/if}
