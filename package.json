@@ -10,7 +10,8 @@
         "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
         "lint": "prettier --check . && eslint .",
         "format": "prettier --write .",
-        "commit": "prettier --check . && eslint . && cz"
+        "commit": "prettier --check . && eslint . && cz",
+        "deploy": "yarn build && gh-pages -d build"
     },
     "devDependencies": {
         "@sveltejs/adapter-auto": "^2.1.0",
