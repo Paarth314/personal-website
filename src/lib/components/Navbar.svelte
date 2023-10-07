@@ -1,6 +1,7 @@
 <script>
     import '$src/app.css'
     import { browser } from '$app/environment'
+    import { page } from '$app/stores'
 
     let currentTheme = 'dark_theme'
     let isDark = false
@@ -10,6 +11,8 @@
         currentTheme = isDark ? 'cupcake' : 'dark_theme'
         if (browser) document.documentElement.setAttribute('data-theme', currentTheme)
     }
+
+    $: routeId = $page.route.id
 </script>
 
 <svelte:window bind:innerWidth />
@@ -22,16 +25,19 @@
         {#if innerWidth > 640}
             <div class="flex font-body">
                 <a
-                    class="link ml-3 px-2 py-2 font-semibold no-underline hover:text-accent"
-                    href="/about">About</a
+                    class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                    href="/about"
+                    class:active={routeId == '/about'}>About</a
                 >
                 <a
-                    class="link ml-3 px-2 py-2 font-semibold no-underline hover:text-accent"
-                    href="/cv">CV</a
+                    class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                    href="/cv"
+                    class:active={routeId == '/cv'}>CV</a
                 >
                 <a
-                    class="link ml-3 px-2 py-2 font-semibold no-underline hover:text-accent"
-                    href="/contact">Contact</a
+                    class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                    href="/contact"
+                    class:active={routeId == '/contact'}>Contact</a
                 >
             </div>
         {:else}
@@ -68,3 +74,10 @@
         </label>
     </div>
 </div>
+
+<style>
+    .active {
+        color: hsl(var(--a));
+        font-weight: 800;
+    }
+</style>
