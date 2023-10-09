@@ -13,3 +13,4 @@ vite.config.ts.timestamp-*
 .vscode/**/*
 !.vscode/settings.json
 !.vscode/extensions.json
+!.vscode/tailwind.json
