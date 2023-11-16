@@ -2,6 +2,8 @@
     import '../app.css'
 </script>
 
+<!-- https://www.wix.com/website-template/view/html/2250?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fresumes-cvs&tpClick=view_button&esi=6aef4ab3-bbaa-47e9-b42d-b64b9d1e6fce -->
+
 <div class="flex w-full">
     <div class="mx-auto h-full w-full max-w-screen-md px-4">
         <div class="w-full border-t-[1px] border-accent py-6">

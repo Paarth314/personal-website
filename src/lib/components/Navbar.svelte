@@ -8,6 +8,10 @@
     let isOpen = false
     let innerWidth = 0
 
+    function closeDrop() {
+        isOpen = false
+    }
+
     $: {
         currentTheme = isDark ? 'cupcake' : 'dark_theme'
         if (browser) document.documentElement.setAttribute('data-theme', currentTheme)
@@ -21,7 +25,9 @@
 <div class="flex w-full flex-col">
     <div class="m-auto flex w-full max-w-screen-md px-4 py-5 tracking-wider sm:py-8">
         <div class="flex-1">
-            <a class="font-body text-xl font-semibold sm:text-2xl" href="/">Paarth</a>
+            <a class="font-body text-xl font-semibold sm:text-2xl" href="/" on:click={closeDrop}
+                >Paarth</a
+            >
         </div>
 
         {#if innerWidth >= 640}
@@ -100,17 +106,20 @@
             <a
                 class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
                 href="/about"
-                class:active={routeId == '/about'}>About</a
+                class:active={routeId == '/about'}
+                on:click={closeDrop}>About</a
             >
             <a
                 class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
                 href="/cv"
-                class:active={routeId == '/cv'}>CV</a
+                class:active={routeId == '/cv'}
+                on:click={closeDrop}>CV</a
             >
             <a
                 class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
                 href="/contact"
-                class:active={routeId == '/contact'}>Contact</a
+                class:active={routeId == '/contact'}
+                on:click={closeDrop}>Contact</a
             >
         </div>
     {/if}
