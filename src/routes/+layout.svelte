@@ -4,4 +4,11 @@
 </script>
 
 <Navbar></Navbar>
-<slot />
+
+<div class="flex w-full">
+    <div class="mx-auto h-full w-full max-w-screen-md px-4">
+        <div class="w-full border-t-[1px] border-accent py-6">
+            <slot />
+        </div>
+    </div>
+</div>

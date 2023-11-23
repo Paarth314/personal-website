@@ -3,16 +3,3 @@
 </script>
 
 <ComingSoon />
-
-<!-- 
-    TO ADD : 
-    Education
-    research interest
-    Academic Projects
-    Projects
-    Achievements
-    Skills 
-        programming and tools
-        misc
-    
- -->
