@@ -102,21 +102,21 @@
         {/if}
     </div>
     {#if isOpen}
-        <div class="flex flex-col pb-4">
+        <div class="flex flex-col pb-4 text-center">
             <a
-                class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                class="link mb-3 font-semibold no-underline hover:text-accent"
                 href="/about"
                 class:active={routeId == '/about'}
                 on:click={closeDrop}>About</a
             >
             <a
-                class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                class="link my-2 font-semibold no-underline hover:text-accent"
                 href="/cv"
                 class:active={routeId == '/cv'}
                 on:click={closeDrop}>CV</a
             >
             <a
-                class="link my-1 ml-4 mr-1 px-1 py-1 font-semibold no-underline hover:text-accent"
+                class="link mb-5 mt-3 font-semibold no-underline hover:text-accent"
                 href="/contact"
                 class:active={routeId == '/contact'}
                 on:click={closeDrop}>Contact</a
@@ -129,5 +129,8 @@
     .active {
         color: hsl(var(--a));
         font-weight: 800;
+        text-decoration: underline wavy;
+        text-decoration-thickness: 2.5px;
+        text-underline-offset: 3px;
     }
 </style>
