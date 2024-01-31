@@ -9,4 +9,9 @@
     I am Paarth Iyer, a 21-year-old currently enrolled in the MSc program for Computer Science at
     the Chennai Mathematical Institute.
 </p>
+<a
+    href="CV_paarth.pdf"
+    class=" text-base font-medium leading-6 underline decoration-wavy decoration-[1.9px] underline-offset-4 hover:text-accent hover:decoration-dashed sm:text-lg"
+    >Cirricullum Vitae</a
+>
 <!-- <p class="my-2">I will add more stuff soon</p> -->
