@@ -2,7 +2,7 @@
     "name": "personal-website",
     "version": "0.0.1",
     "private": true,
-    "homepage": "https://github.com/Paarth314/Paarth314.github.io/",
+    "homepage": "https://github.com/PaarthIyer/PaathIyer.github.io/",
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
