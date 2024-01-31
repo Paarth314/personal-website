@@ -23,7 +23,7 @@
 
 <svelte:window bind:innerWidth />
 <div class="flex w-full flex-col">
-    <div class="m-auto flex w-full max-w-screen-md px-4 py-5 tracking-wider sm:py-8">
+    <div class="m-auto flex w-full max-w-screen-lg px-4 py-5 tracking-wider sm:py-8">
         <div class="flex-1">
             <a class="font-body text-xl font-semibold sm:text-2xl" href="/" on:click={closeDrop}
                 >Paarth</a
