@@ -7,8 +7,9 @@
 </h1> -->
 <div class="mb-8 mt-6 border-b-[1px] border-accent pb-8 text-sm sm:text-base">
     <p class="pb-4">
-        The website contains a more detailed CV including some of the minor projects, both personal
-        and academic.
+        I will soon add all my projects on this website.
+        <!-- The website contains a more detailed CV including some of the minor projects, both personal
+        and academic. -->
     </p>
     <a
         href="CV_paarth.pdf"
