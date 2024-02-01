@@ -1,0 +1,2 @@
+import{s as l,n as a}from"../chunks/scheduler.2bcefb51.js";import{S as r,i as o,g as m,h as c,x as p,a as f,f as u}from"../chunks/index.8cd701c1.js";function d(s){let t,n=`Institute Email : paarth[AT]cmi[DOT]ac[DOT]in <br/> This email will stay active till atleast July,
+    2024.`;return{c(){t=m("p"),t.innerHTML=n},l(e){t=c(e,"P",{"data-svelte-h":!0}),p(t)!=="svelte-1dqakaf"&&(t.innerHTML=n)},m(e,i){f(e,t,i)},p:a,i:a,o:a,d(e){e&&u(t)}}}class T extends r{constructor(t){super(),o(this,t,null,d,l,{})}}export{T as component};
