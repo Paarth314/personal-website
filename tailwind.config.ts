@@ -1,26 +1,13 @@
-import type { Config } from 'tailwindcss'
-import themes from 'daisyui/src/theming/themes'
+import containerQueries from '@tailwindcss/container-queries';
+import typography from '@tailwindcss/typography';
+import type { Config } from 'tailwindcss';
 
 export default {
-    content: ['./src/**/*.{html,js,svelte,ts}'],
-    theme: {
-        fontFamily: {
-            sans: ['IBM Plex Mono', 'mono space'],
-            body: ['IBM Plex Mono', 'mono space'],
-            heading: ['Montserrat', 'sans-serif']
-        },
-        extend: {}
-    },
-    plugins: [require('daisyui'), require('@tailwindcss/typography')],
-    daisyui: {
-        themes: [
-            {
-                dark_theme: {
-                    ...themes['[data-theme=business]'],
-                    'base-content': 'white'
-                }
-            },
-            'cupcake'
-        ]
-    }
-} satisfies Config
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+
+	theme: {
+		extend: {}
+	},
+
+	plugins: [typography, containerQueries]
+} satisfies Config;
