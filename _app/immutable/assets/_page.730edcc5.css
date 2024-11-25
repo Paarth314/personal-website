@@ -1,0 +1,1 @@
+.line-bullet.svelte-yvp09r{position:relative;padding:10px}.line-bullet.svelte-yvp09r:before{content:"";width:12px;height:12px;border-radius:50%;background:hsl(var(--a));position:absolute;left:-15px;top:25px;transform:translateY(-40%)}.line-bullet.svelte-yvp09r:not(:last-child):after{content:"";width:2px;height:100%;background:hsl(var(--a));position:absolute;left:-10px;top:25px}

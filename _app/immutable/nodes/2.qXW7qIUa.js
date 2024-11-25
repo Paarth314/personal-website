@@ -1,1 +1,0 @@
-import{t as o,a as n}from"../chunks/disclose-version.DnvqhSjj.js";import"../chunks/legacy.BMbwxnnL.js";import{n as r}from"../chunks/runtime.D8D2VNlI.js";function m(t){r();var e=o("New website under construction");n(t,e)}export{m as component};
