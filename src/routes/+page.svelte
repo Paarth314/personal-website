@@ -1,5 +1,8 @@
-<div class="flex items-center justify-center py-16">
-    <div class="mx-4 my-5 size-72 rounded-full bg-[url('/dp.JPG')] bg-cover"></div>
+<div class="flex flex-wrap items-center justify-center pb-6 pt-10 sm:flex-nowrap sm:py-16">
+    <div
+        class="mx-4 my-5 size-72 rounded-full border-8 border-primary-200 bg-[url('/dp.JPG')] bg-cover"
+    ></div>
+    <!--   -->
     <div class="m-4 p-2">
         <div
             class="mb-1 font-heading text-lg font-semibold tracking-wide underline underline-offset-4"
@@ -7,13 +10,15 @@
             Hello Visitor, I am
         </div>
 
-        <div class=" -ml-1 font-altheading text-8xl font-bold leading-none">Paarth Iyer</div>
+        <div class="-ml-1 font-altheading text-6xl font-bold leading-none md:text-8xl">
+            Paarth Iyer
+        </div>
     </div>
 </div>
 
-<div class="mx-16 my-10">
-    <div class="mb-4 font-heading text-4xl font-semibold">About Me</div>
-    <div class="font-body text-lg">
+<div class="m-8 md:mx-16 md:my-10">
+    <div class="mb-4 font-heading text-3xl font-semibold sm:text-4xl">About Me</div>
+    <div class="font-body sm:text-lg">
         I am currently a Research Assistant at Chennai Mathematical Institute, working with Asst.
         Prof. Pranabendu Misra, researching topics related to LLMs. I am also working as a Research
         Intern at JIO AICoE, in topics relating to image-to-3D pipelines with diffusion and gaussian
@@ -25,17 +30,17 @@
     </div>
 </div>
 
-<div class="mx-16 my-10">
-    <div class="mb-4 font-heading text-4xl font-semibold">Curriculum Vitae</div>
-    <div class="font-body text-lg">
+<div class="m-8 md:mx-16 md:my-10">
+    <div class="mb-4 font-heading text-3xl font-semibold sm:text-4xl">Curriculum Vitae</div>
+    <div class="font-body sm:text-lg">
         Updated to 25th November, 2024 :
         <a href="/" target="_blank" class="text-xl font-medium underline">Download</a>
     </div>
 </div>
 
-<div class="mx-16 my-10">
-    <div class="mb-4 font-heading text-4xl font-semibold">Socials</div>
-    <div class="font-body text-lg">
+<div class="m-8 md:mx-16 md:my-10">
+    <div class="mb-4 font-heading text-3xl font-semibold sm:text-4xl">Socials</div>
+    <div class="font-body sm:text-lg">
         Email :
         <span class="font-medium"
             >paarth<span class="text-zinc-300">_AT_</span>cmi<span class="text-zinc-300">_DOT_</span
@@ -52,9 +57,9 @@
     </div>
 </div>
 
-<div class="mx-16 my-10">
-    <div class="mb-4 font-heading text-4xl font-semibold">Misc</div>
-    <div class="font-body text-lg">
+<div class="m-8 md:mx-16 md:my-10">
+    <div class="mb-4 font-heading text-3xl font-semibold sm:text-4xl">Misc</div>
+    <div class="font-body sm:text-lg">
         As of right now, I also enjoy a bit of CSS code golfing over at <span class="font-medium"
             >cssbattle.net</span
         >.
