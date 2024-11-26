@@ -1,14 +1,12 @@
-<script>
+<script lang="ts">
     import '../app.css'
-    import Navbar from '$src/lib/components/Navbar.svelte'
+    let { children } = $props()
 </script>
 
-<Navbar></Navbar>
-
-<div class="flex w-full">
-    <div class="mx-auto h-full w-full max-w-screen-lg px-4">
-        <div class="w-full border-t-[1px] border-accent py-6">
-            <slot />
-        </div>
+<div
+    class="flex min-h-screen w-full bg-gray-50 text-zinc-800 selection:bg-accent-400 selection:text-white"
+>
+    <div class="mx-auto w-full max-w-screen-lg bg-white shadow-md shadow-gray-300">
+        {@render children()}
     </div>
 </div>
