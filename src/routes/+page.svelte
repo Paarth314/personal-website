@@ -34,7 +34,7 @@
     <div class="mb-4 font-heading text-3xl font-semibold sm:text-4xl">Curriculum Vitae</div>
     <div class="font-body sm:text-lg">
         Updated to 25th November, 2024 :
-        <a href="/" target="_blank" class="text-xl font-medium underline">Download</a>
+        <a href="/cv-paarth" target="_blank" class="text-xl font-medium underline">Download</a>
     </div>
 </div>
 
